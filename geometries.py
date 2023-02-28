@@ -198,6 +198,7 @@ def visualize(X, y, **kwargs):
         row, column, part = kwargs["perturbed_rows"], kwargs["perturbed_indices"], kwargs["perturbed_part"]
         # Display position of swaps
         print("The first list indicates indices of swaps, second list indicates part (0 -> shape, 1 -> color)")
+        print("E.g. 'swapped [5] on part [0]' means the shape on index 5 should be wrong (same as the shape before)")
         for i in range(n_samples):
             print(f"swapped: {column[row == negative_indices[i]]} on part {part[row == negative_indices[i]]} for sample on row # {i + n_samples}")
     
