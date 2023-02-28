@@ -2,7 +2,6 @@
 
 --A placeholder for now--
 
-## Overview
 
 ## Dependencies
 
