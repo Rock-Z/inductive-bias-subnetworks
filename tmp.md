@@ -1,1 +1,1 @@
-`for testing commits from git`
+`for testing commits from CCV`
